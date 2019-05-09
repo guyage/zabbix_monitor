@@ -1,7 +1,7 @@
 #!/bin/bash
 echo -n '{"data":['
 flag=""
-mysql_port="3306"
+mysql_port="3306 3307"
 for port in $mysql_port
 do
  echo -en "$flag{\"{#MYSQLPORT}\": \"$port\"}"

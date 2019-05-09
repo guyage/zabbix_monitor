@@ -8,7 +8,7 @@ import json
 db_host = '127.0.0.1'
 db_user = 'zabbix'
 db_passwd = 'zabbix'
-db_port = ['3306']
+db_port = ['3306','3307']
 slave_port = []
 role = 'slave'
 
